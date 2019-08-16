@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+    crossorigin="anonymous">
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+    crossorigin="anonymous">
+
+  <!-- 微调一些东西 -->
+  <style>
+    .jumbotron {
+      margin-top: 2em;
+    }
+
+    h2 {
+      padding-top: 0.5em;
+      padding-bottom: 0.5em;
+    }
+
+    .card {
+      margin-top: 1em;
+      margin-bottom: 2em;
+      /* border: 1px black solid; */
+    }
+
+    .card-img-top {
+      height: 200px;
+    }
+
+    i {
+      color: #343a40;
+    }
+
+    i:hover {
+      color: #0069d9;
+    }
+  </style>
+
+  <title>Portfolio - Haobo Zhao</title>
+</head>
+
+<body>
+  <!-- 导航栏 -->
+  <nav class="navbar sticky-top navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Home</a>
+      <a class="navbar-brand" href="about.html">About</a>
+    </div>
+  </nav>
+
+  <!-- 大彩电 -->
+  <div class="container">
+    <div class="jumbotron bg-dark text-white">
+      <h1 class="display-4">Welcome!</h1>
+      <p class="lead">This is where I collect my projects, and the source code is shared in the corresponding GitHub
+        repositories.</p>
+      <p class="lead">Here you will have an overview of all of them.</p>
+      <a class="btn btn-primary btn-lg" href="https://github.com/Haobo-Zhao/" role="button">Go to my GitHub page</a>
+    </div>
+  </div>
+
+  <!-- 项目 -->
+  <div class="container">
+    <!-- 游戏 -->
+    <h2 class="display-5 bg-dark text-center text-white rounded">
+      <div style="font-size:1em; color:White">
+        <i class="fas fa-gamepad"></i>
+        <span>Games</span>
+      </div>
+    </h2>
+
+    <!-- 可以考虑用Bootstrap的 card deck来等高等宽 -->
+    <!-- 原生的话，用flexbox，三个部分固定好，保证拉伸的时候，按钮也能水平对齐 -->
+    <div class="row">
+      <div class="col-12 col-sm-6 col-lg-4">
+        <div class="card" style="width: 100%;">
+          <img class="card-img-top" src="brick-breaker.png" alt="screenshot">
+          <div class="card-body">
+            <h5 class="card-title">Brick Breaker</h5>
+            <p class="card-text">Interesting features like dynamic FPS, etc. Written in HTML, CSS
+              and JavaScript.</p>
+            <div class="text-center">
+              <a href="https://github.com/Haobo-Zhao/Game-Bricks-Breaker" class="btn btn-primary">Go to Github repo</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-6 col-lg-4">
+        <div class="card" style="width: 100%;">
+          <img class="card-img-top" src="snake.png" alt="screenshot">
+          <div class="card-body">
+            <h5 class="card-title">Snake</h5>
+            <p class="card-text">Just a simple version of well-known game Snake. All written in vanilla Java.</p>
+            <div class="text-center">
+              <a href="https://github.com/Haobo-Zhao/Game-Snake" class="btn btn-primary">Go to Github repo</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-6 col-lg-4">
+        <div class="card" style="width: 100%;">
+          <img class="card-img-top" src="tic-tac-toe.png" alt="screenshot">
+          <div class="card-body">
+            <h5 class="card-title">Tic Tac Toe</h5>
+            <p class="card-text">My first game ever, which started it all. Written in HTML, CSS
+              and JavaScript.</p>
+            <div class="text-center">
+              <a href="https://github.com/Haobo-Zhao/Game-Tic-Tac-Toe" class="btn btn-primary">Go to Github repo</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 应用 -->
+    <h2 class="display-5 bg-dark text-center text-white rounded">
+      <div style="font-size:1em; color:White">
+        <i class="fas fa-compass"></i>
+        <span>Web apps</span>
+      </div>
+    </h2>
+
+    <div class="row">
+      <div class="col-12 col-sm-6 col-lg-4">
+        <div class="card" style="width: 100%;">
+          <img class="card-img-top" src="house-renting.jpg" alt="screenshot">
+          <div class="card-body">
+            <h5 class="card-title">House Renting Center</h5>
+            <p class="card-text">Web app for publishing and browsing information regarding house renting. Written in
+              Java, using the framework Spring.</p>
+            <div class="text-center">
+              <a href="https://github.com/Haobo-Zhao/Spring-based-web-app-for-renting-house-and-apartment" class="btn btn-primary">Go
+                to GitHub repo</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-6 col-lg-4">
+        <div class="card" style="width: 100%;">
+          <img class="card-img-top" src="second-hand.png" alt="screenshot">
+          <div class="card-body">
+            <h5 class="card-title">Used Car Market</h5>
+            <p class="card-text">Web app for posting and reading about used cars. Written in
+              JavaScript, using Node.js, Express.js and MongoDB.</p>
+            <div class="text-center">
+              <a href="https://github.com/Haobo-Zhao/secondhand_market_demo" class="btn btn-primary">Go to GitHub repo</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- 不太好分类的东西 -->
+    <h2 class="display-5 bg-dark text-center text-white rounded">
+      <div style="font-size:1em; color:White">
+        <i class="fas fa-box"></i>
+        <span>Miscellaneous</span>
+      </div>
+    </h2>
+
+    <div class="row">
+      <div class="col-12 col-sm-6 col-lg-4">
+        <div class="card" style="width: 100%;">
+          <img class="card-img-top" src="tsp.png" alt="screenshot">
+          <div class="card-body">
+            <h5 class="card-title">Traveling Salesman Problem</h5>
+            <p class="card-text">Solve the traveling salesman problem for visiting 48 contiguous states by using
+              genetic algorithm. Written in Java.</p>
+            <div class="text-center">
+              <a href="https://github.com/Haobo-Zhao/INFO6205_328" class="btn btn-primary">Go to Github repo</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-6 col-lg-4">
+        <div class="card" style="width: 100%;">
+          <img class="card-img-top" src="http_server.png" alt="screenshot">
+          <div class="card-body">
+            <h5 class="card-title">Http Server</h5>
+            <p class="card-text">A simple http server, allowing png file upload. To be honest, this is really my
+              practice, my plan is to do a python version fully-fledged http server.</p>
+            <div class="text-center">
+              <a href="https://github.com/Haobo-Zhao/http_server" class="btn btn-primary">Go to Github repo</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="text-right" style="font-size: 1.5em; margin: 1em 0;">
+      <div style="display: inline; margin-right: 1em;">
+        <a href="https://github.com/Haobo-Zhao" style="text-decoration: none;">
+          <i class="fab fa-github" style="font-size:1.5em;"></i>
+        </a>
+      </div>
+      <div style="display: inline; margin-right: 1em;">
+        <a href="mailto:haobo4608@gmail.com">
+          <i class="fas fa-envelope" style="font-size:1.5em;"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
